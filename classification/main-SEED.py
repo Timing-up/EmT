@@ -13,7 +13,8 @@ if __name__ == '__main__':
     ######## Data ########
     parser.add_argument('--ROOT', type=str, default=current_dir)
     parser.add_argument('--dataset', type=str, default='SEED')
-    parser.add_argument('--data-path', type=str, default="D:\DingYi\Dataset\SEED\SEED\Preprocessed_EEG")    # change this accordingly
+    # parser.add_argument('--data-path', type=str, default="D:\DingYi\Dataset\SEED\SEED\Preprocessed_EEG")    # change this accordingly
+    parser.add_argument('--data-path', type=str, default="E:\BaiduNetdiskDownload\SEED\Preprocessed_EEG")
     parser.add_argument('--subjects', type=int, default=15)
     parser.add_argument('--data-exist', default=False)  # skip data preparation by default
 
